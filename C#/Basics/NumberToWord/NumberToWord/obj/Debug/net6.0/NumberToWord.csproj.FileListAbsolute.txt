@@ -1,0 +1,15 @@
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\bin\Debug\net6.0\NumberToWord.exe
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\bin\Debug\net6.0\NumberToWord.deps.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\bin\Debug\net6.0\NumberToWord.runtimeconfig.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\bin\Debug\net6.0\NumberToWord.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\bin\Debug\net6.0\NumberToWord.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.csproj.AssemblyReference.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.AssemblyInfoInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.AssemblyInfo.cs
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\refint\NumberToWord.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\NumberToWord.genruntimeconfig.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Basics\NumberToWord\NumberToWord\obj\Debug\net6.0\ref\NumberToWord.dll
