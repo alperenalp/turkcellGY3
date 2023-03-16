@@ -1,85 +1,115 @@
-﻿
+﻿PasswordChecker passwordChecker = new PasswordChecker();
 bool isAgain = true;
 while (isAgain)
 {
     try
     {
-        string username = getUsernameFromUser();
-        while (true)
+        string password = getPasswordFromUser();
+        bool isLong = passwordChecker.checkPasswordLength(password);
+        if (isLong)
         {
-            string password = getPasswordFromUser();
-            bool isTooLength = checkPasswordLength(password);
-            if (isTooLength)
-            {
-                string passwordStrength = checkPasswordStrength(password);
-                Console.WriteLine($"{passwordStrength} şifre!");
-                break;
-            }
+            string passwordStrength = passwordChecker.checkPasswordStrength(password);
+            Console.WriteLine($"{passwordStrength} şifre!");
         }
-        isAgain = false;
+        else
+        {
+            Console.WriteLine("Şifre 6 karakterden küçük olamaz");
+        }
+        string runChoice = getRunChoiceFromUser();
+        while (runChoice =="unknown")
+        {
+            runChoice = getRunChoiceFromUser();
+        }
+        isAgain = runChoice == "continue" ? true : false;
     }
     catch (Exception ex)
     {
-        Console.WriteLine("Bilinmeyen bir hatayla karşılaşıldı. \nBi bakayım diyorsan hata kodu:\n" + ex + "\n");
+        Console.WriteLine("\nBir hatayla karşılaşıldı. \nHata nedeni:\n" + ex + "\n\nTekrar denemek için bekleyiniz...\n");
+        Thread.Sleep(2000);
         isAgain = true;
     }
 }
 
-string checkPasswordStrength(string password)
+string getRunChoiceFromUser()
 {
-    bool isLetter = false;
-    bool isNumber = false;
-    bool isNonAlfanumeric = false;
-    for (int i = 0; i < password.Length; i++)
+    Console.Write("\nTekrar denemek için -> 1, Çıkmak için -> 2 tuşlayınız: ");
+    string runChoice = Console.ReadLine();
+    Console.WriteLine();
+    switch (runChoice)
     {
-        if (!isLetter)
-        {
-            isLetter = char.IsLetter(password[i]);
-        }
-        if (!isNumber)
-        {
-            isNumber = char.IsNumber(password[i]);
-        }
-        if (!isNonAlfanumeric)
-        {
-            isNonAlfanumeric = char.IsSymbol(password[i]) || char.IsPunctuation(password[i]);
-        }
+        case "1":
+            return "continue";
+        case "2":
+            Console.WriteLine("Çıkılıyor...");
+            Thread.Sleep(1000);
+            return "break";
+        default:
+            Console.WriteLine("Öyle bir seçenek yok abi");
+            return "unknown";
     }
-
-    if (isNonAlfanumeric && isNumber && isLetter)
-    {
-        return "İYİ";
-    }
-    else if ((isLetter && isNumber) || (isLetter && isNonAlfanumeric) || (isNumber && isNonAlfanumeric))
-    {
-        return "KÖTÜ";
-    }
-    else
-    {
-        return "ÇİRKİN";
-    }
-}
-
-bool checkPasswordLength(string password)
-{
-    bool isTooLength = true;
-    if (password.Length < 6)
-    {
-        Console.WriteLine("Şifre 6 karakterden küçük olamaz");
-        isTooLength = false;
-    }
-    return isTooLength;
-}
-
-
-string getUsernameFromUser()
-{
-    Console.Write("Kullanıcı adınızı giriniz: ");
-    return Console.ReadLine();
 }
 
 string getPasswordFromUser()
 {
     Console.Write("Şifrenizi giriniz: ");
     return Console.ReadLine();
+}
+
+public class PasswordChecker
+{
+    /// <summary>
+    /// Şifrenin gücünü tespit eder ve şifrenin gücünü string olarak size verir.
+    /// </summary>
+    /// <param name="password">Güç tespti yapılması istenen şifre</param>
+    /// <returns></returns>
+    public string checkPasswordStrength(string password)
+    {
+        bool isLetter = false;
+        bool isNumber = false;
+        bool isNonAlphanumeric = false;
+        for (int i = 0; i < password.Length; i++)
+        {
+            if (!isLetter)
+            {
+                isLetter = char.IsLetter(password[i]);
+            }
+            if (!isNumber)
+            {
+                isNumber = char.IsNumber(password[i]);
+            }
+            if (!isNonAlphanumeric)
+            {
+                isNonAlphanumeric = char.IsSymbol(password[i]) || char.IsPunctuation(password[i]);
+            }
+        }
+
+        if (isNonAlphanumeric && isNumber && isLetter)
+        {
+            return "İYİ";
+        }
+        else if ((isLetter && isNumber) || (isLetter && isNonAlphanumeric) || (isNumber && isNonAlphanumeric))
+        {
+            return "KÖTÜ";
+        }
+        else
+        {
+            return "ÇİRKİN";
+        }
+    }
+
+    /// <summary>
+    /// Şifre 6 karakterden uzun mu kontrolünü yapar.
+    /// </summary>
+    /// <param name="password">Uzunluğun bulunması istenilen şifre</param>
+    /// <returns></returns>
+    public bool checkPasswordLength(string password)
+    {
+        bool isTooLength = true;
+        if (password.Length < 6)
+        {
+            isTooLength = false;
+        }
+        return isTooLength;
+    }
+
 }
