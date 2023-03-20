@@ -1,0 +1,15 @@
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\bin\Debug\net6.0\Task3OOP.exe
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\bin\Debug\net6.0\Task3OOP.deps.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\bin\Debug\net6.0\Task3OOP.runtimeconfig.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\bin\Debug\net6.0\Task3OOP.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\bin\Debug\net6.0\Task3OOP.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.csproj.AssemblyReference.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.AssemblyInfoInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.AssemblyInfo.cs
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\refint\Task3OOP.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\Task3OOP.genruntimeconfig.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task3OOP\Task3OOP\obj\Debug\net6.0\ref\Task3OOP.dll
