@@ -1,0 +1,15 @@
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.csproj.AssemblyReference.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.AssemblyInfoInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.AssemblyInfo.cs
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\bin\Debug\net6.0\Task4VariantConcept.exe
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\bin\Debug\net6.0\Task4VariantConcept.deps.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\bin\Debug\net6.0\Task4VariantConcept.runtimeconfig.json
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\bin\Debug\net6.0\Task4VariantConcept.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\bin\Debug\net6.0\Task4VariantConcept.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\refint\Task4VariantConcept.dll
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.pdb
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\Task4VariantConcept.genruntimeconfig.cache
+C:\Users\Alperen\source\repos\turkcellGY3\C#\Tasks\Task4VariantConcept\Task4VariantConcept\obj\Debug\net6.0\ref\Task4VariantConcept.dll
