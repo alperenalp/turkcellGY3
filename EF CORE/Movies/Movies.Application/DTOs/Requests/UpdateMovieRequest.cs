@@ -1,6 +1,6 @@
-﻿namespace Movies.Entities
+﻿namespace Movies.Application.DTOs.Requests
 {
-    public class Movie : IEntity
+    public class UpdateMovieRequest
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
@@ -8,14 +8,6 @@
         public string? Poster { get; set; }
         public int? Duration { get; set; }
         public double? Rating { get; set; }
-
-        //Navigation Property:
-        public Director? Director { get; set; }
         public int? DirectorId { get; set; }
-
-        public ICollection<MoviesPlayer> Players { get; set; } = new HashSet<MoviesPlayer>();
-
-
-
     }
 }
